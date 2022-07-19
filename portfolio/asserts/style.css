@@ -151,7 +151,7 @@ nav a:hover{
   border-radius: 3px;
   color: #ffffff;
   background-color: #e13939;
-  opacity: 75%;
+  opacity: 60%;
   width: 90px;
   height: 32px;
   text-transform: uppercase;
@@ -163,12 +163,12 @@ nav a:hover{
   cursor: pointer;
   background-color: #e13939;
   box-shadow: #fff;
-  width: 92px;
-  height: 34px;
+  width: 90px;
+  height: 32px;
   opacity: 100%;
 }
 .typing-animation{
-  animation:blinkCursor 500ms steps(40) infinite normal, typing 7s infinite steps(40) 1s normal both;
+  animation:blinkCursor 500ms steps(40) infinite normal, typing 8s infinite steps(40) 1s normal both;
 
 }
 @keyframes typing {
@@ -234,6 +234,7 @@ article {
   margin-left: 20px;
 }
 .title_description{
+  margin-top: 20px;
   margin-left: 20px;
   color: #fff;
   width: 500px;
@@ -296,4 +297,23 @@ font-family: 'Quicksand', sans-serif;;
 .button_style a{
   text-decoration: none;
  
+}
+
+/* minhas habilidades */
+
+.Container_Skills{
+  display: flex;
+}
+.skills{
+  margin-top: 50px;
+  display: flex;
+  text-transform: uppercase;
+  
+}
+.porcent{
+  margin-top:10px;
+  width: 300px;
+  height: 2px;
+  background-color: #e13939;
+  color:#e13939;
 }
