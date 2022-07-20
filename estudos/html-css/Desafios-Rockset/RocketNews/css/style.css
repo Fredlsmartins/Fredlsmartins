@@ -101,10 +101,12 @@ body{
 }
 .maincontainer-end{
   display: flex;
+  
 }
 .maincontainer-end h3{
   color:var(--text-color);
   opacity: 59%;
+  margin-left: 4rem;
 }
 
       /* RODA PÉ */
