@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Poppins:ital,wght@0,600;1,300&family=Work+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+
+body{
+  background:var(--form-color)
+  
+}
+
+.header{
+  
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 5rem;
+  color: var(--text-color);
+}
+
+.conteudo-escritoPrincipal{
+  display: flex;  
+}
+.conteudo-escritoPrincipal h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.discover{
+  margin-top: 0.8rem;
+  font-size: 1.25rem;
+  
+}
+
+.imagem-perfil{
+  width: 4rem;
+  height:4rem;
+  border-radius: 8rem;
+}
+.imagem-icone{
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.perfil-socialContainer{
+  display: flex;
+  margin-top: 4rem;
+}
+.conteudo-perfilsocial{
+  display: flex;
+}
+
+.imagemescrito-social{
+  display: flex;
+  align-items: center;
+}
+
+.perfil-socialContainer h4{
+  font-style: normal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+ 
+}
+.perfil-socialContainer h6{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 0.7rem;
+}
+.conteudo-perfilsocial{
+  display: flex;
+  align-items: center;
+  gap:1.25rem;
+}
+.conteudo-perfilsocialDois{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap:1.25rem;
+}
+
+
+    /* main */
+
+.main{
+  display: flex;
+  align-items: flex-end;
+  margin-top:1.875rem;
+  background-color:var(--form-color);
+  height:17rem;
+}
+.maincontainer-end{
+  display: flex;
+}
+.maincontainer-end h3{
+  color:var(--text-color);
+  opacity: 59%;
+}
+
+      /* RODA PÉ */
+
+footer{
+  display: flex;
+  height: 37.625rem;
+  background-color: var(--form-color);
+}
+.container-footer{
+  display: flex; 
+  margin-left: 4rem; 
+}
+.conteudo-esquerda{
+  width: 30.125rem;
+  height: 36.625rem;
+  background-color:var(--body-bg-color);
+  z-index: 1;
+  
+}
+.conteudo-direita{
+  width: 30.125rem;
+  height: 36.625rem;
+  background-color: #A8A8A8;
+  
+
+}
+.logo-Rockeset{
+  width: 20rem;
+  height: 10rem;
+  margin-left: 2rem;
+}
+.imagem-read_news{
+  width: 30.125rem;
+  height: 36.625rem;
+  
+  
+}
+.conteudo-escrito-esquerda h2{
+  color: var(--title-color);
+  font-size: 1rem;
+  font-family:'Work Sans' ;
+  line-height: 2rem;
+  margin-left: 2rem;
+}
+.conteudo-escrito-esquerda h3{
+  color:var(--text-color);
+  font-family:'League Spartan';
+  font-size:0.7rem;
+  font-weight: 800;
+  margin-left: 2rem; 
+}
+.conteudo-escrito-esquerda span{
+  font-weight: 400;
+  line-height: 0.8rem;
+
+}
+.label{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  color: var(--text-color);
+}
+.input-container{
+  display: flex;
+ 
+}
+.input-container  {
+  display: flex;
+  justify-content: end;
+  width: 35rem;
+  margin-left: 4rem;
+}
+.input-container input{
+  width: 35rem;
+  height: auto;
+}
+.botao{
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-button-color);
+}
+
+.deixe-me h3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4rem;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--bg-button-color);
+  margin-left: 2rem;
+}
+
+
+
+
+
+ 
