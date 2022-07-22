@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+  
+}
+.container{
+  display: flex;
+  margin: 30px;
+  
+}
+.container-conteudo{
+
+  width:80.75rem;
+  margin:auto;
+  display:flex;
+}
+.conteudo-esquerda{
+  display: flex;
+  flex-direction: column;
+  width:41.875rem;
+  /* max-width: 50%; */
+  background-color: var(--background);
+  height:38rem;
+}
+.container-esquerda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  
+}
+.logo-container{
+  margin-left: 1.8rem;
+  margin-top: 1.3rem;
+}
+
+.side-image{
+  width: 41.875rem;
+  height:38rem;
+}
+        /* FORMULARIO */
+.container-form{
+  display: flex;
+  width: 22.25rem;
+  height:25.25rem;
+  
+}
+.container-form{
+  display: flex;
+  justify-content: center;
+  background-color: var(--form-background);
+}
+
+.escrito-login{
+  display: flex;
+  justify-content: left;
+  margin-top: 26px;
+   
+}
+.escrito-login h1{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  color:var(--text-title);
+  margin-left: 15px;
+}
+
+ .info-login{
+   padding-right: 23px;
+ 
+}
+.info-login h3{
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 4px;
+  color: var(--text-base);
+  text-align: center;
+  margin-right: 17px;
+}
+label{
+  color:var(--text-base);
+  opacity: 70%;
+}
+.label-escrito{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.input_login{
+  
+  height: 1.9rem;
+  width: 15rem;
+  border: groove 2.3px var(--primary-color);
+  background-image: url(/images/mail-focus.svg);
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-radius: 6px;
+  padding-left: 40px;
+  color: var(--text-base);
+
+}
+
+.senha{
+  background-image: url(/images/lock-focus.svg), url(/images/eye.svg);
+  background-position:4% 50%, 96% 50%
+}
+
+.input_login::-webkit-input-placeholder{
+  color: var(--text-base);
+  opacity: 70%;
+
+}
+.botao{
+  margin-left: 3px;
+  margin-top:1rem;
+  height: 1.9rem;
+  width: 16.3rem;
+  
+}
+.botao button{
+  height: 2.1rem;
+  width: 17rem;
+  background-color: var(--primary-color);
+  border: none;
+  opacity: 91%;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+.botao button:hover{
+  opacity: 100%;
+}
+.registre-se{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.registre-se p{
+  color: var(--primary-color);
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+.registre-se a{
+  color: var(--primary-color);
+  font-family: 'Poppins';
+  font-weight: 600;
+  opacity: 91%;
+}
+.registre-se a:hover{
+  opacity: 100%;
+}
+.box-container{
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  margin-top:1.5rem;
+ 
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+ 
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top:10px;
+}
+.bar-container{
+  display: flex;
+  justify-content:center;
+  
+}
+.bar-conteudo{
+  display: flex;
+}
+.bar{
+  display: flex;
+  align-items: center;
+  gap:79px;
+  margin-top: 0.8rem;
+}
+.Lembre-me-container{
+  display: flex;
+  align-items: center;
+  gap:2px
+}
+.lembre-me-label{
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 10px;
+  opacity: 80%;
+}
+.lembre-me-label:hover{
+  opacity: 100%;
+}
+
+
+
+input{
+all: unset;
+border: groove 1px var(--background);
+border-radius: 2px;
+width: 15px;
+height: 15px;
+display: inline-block;
+}
+input:checked{
+background-color:var(--primary-color);
+
+width: 16px;
+height: 16px;
+background-image: url(/images/check.svg);
+background-position: center;
+}
+
+
+@media screen and (max-width: 992px) {
+  .container-img {
+    display: none;
+  }
+    .conteudo-img{display: none;}
+    .conteudo-esquerda {
+      width: 80vw;
+      
+      margin: 0;
+    }
+}
+@media screen and (max-width: 600px){
+  .container-img {
+    display: none;
+  }
+    .conteudo-img{display: none;}
+   
+
+}
+
+
+
+
