@@ -4,7 +4,7 @@
 - 💬 Graduação de Análise de Desenvolvimento de Sistemas em
 andamento, pretendendo me especializar em Desenvolvimento
 Web Fullstack. Busco me atualizar para o mercado fazendo cursos
-nas principais plataformas online e cursos de Bootcamp. Tenho 26
+nas principais plataformas online e cursos de Bootcamp. Tenho 28
 anos, casado, pai e atualmente excendo a função de Gari. Busco minha primeira oportunidade para me integrar
 no mercado da tecnologia.
 - 😄 Pronouns:ele/dele
